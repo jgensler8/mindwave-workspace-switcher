@@ -1,0 +1,12 @@
+package: github.com/jgensler8/mindwave
+import:
+- package: github.com/VividCortex/ewma
+  version: v1.1.1
+- package: github.com/ctcpip/notifize
+  version: v1.0.0
+- package: gobot.io/x/gobot
+  version: v1.8.0
+  subpackages:
+  - platforms/neurosky
+- package: gopkg.in/oleiade/lane.v1
+  version: v1.0.0

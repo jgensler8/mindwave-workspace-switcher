@@ -1,0 +1,29 @@
+hash: 29acd726ecdf1959138f99266323395c4a1525340c99ed6656b343621c2bd0f2
+updated: 2018-02-04T17:43:32.646949168-06:00
+imports:
+- name: github.com/creack/goselect
+  version: 1bd5ca702c6154bccc56ecd598932ee8b295cab2
+- name: github.com/ctcpip/notifize
+  version: 89b506bbcaf11bc5ffd34e2ec1a1274f4e31147f
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-multierror
+  version: b7773ae218740a7be65057fc60b366a49b538a44
+- name: github.com/VividCortex/ewma
+  version: b24eb346a94c3ba12c1da1e564dbac1b498a77ce
+- name: go.bug.st/serial.v1
+  version: eae1344f9f90101f887b08d13391c34399f97873
+  subpackages:
+  - unixutils
+- name: gobot.io/x/gobot
+  version: 6fb9c3991b5d9225e71c0e46b4239da33395251a
+  subpackages:
+  - platforms/neurosky
+- name: golang.org/x/sys
+  version: 37707fdb30a5b38865cfb95e5aab41707daec7fd
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/oleiade/lane.v1
+  version: 28f7c3f09254f12b51e620fa4db136ba58804762
+testImports: []
